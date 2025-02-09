@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal for Lakshmi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+        #message {
+            display: none;
+            font-size: 20px;
+            margin-top: 20px;
+            color: #d50000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey Lakshmi! 💖</h1>
+        <p>There's something special I want to ask you...</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message">Will you be mine forever? ❤️</p>
+    </div>
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
